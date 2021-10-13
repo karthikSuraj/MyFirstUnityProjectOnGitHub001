@@ -17,16 +17,20 @@ public class sceanChanger : MonoBehaviour
         
     }
 
-    void loadScenOne()
-    {
-        SceneManager.LoadScene(0);
-    }
-    void loadScenTwo()
+    public void loadScenOne()
     {
         SceneManager.LoadScene(1);
     }
-    void loadScenThree()
+    public void loadScenTwo()
     {
         SceneManager.LoadScene(2);
+    }
+    public void loadScenThree()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void loadScenMain()
+    {
+        SceneManager.LoadScene(0);
     }
 }
