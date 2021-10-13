@@ -32,5 +32,6 @@ public class sceanChanger : MonoBehaviour
     public void loadScenMain()
     {
         SceneManager.LoadScene(0);
+        //assasa
     }
 }
